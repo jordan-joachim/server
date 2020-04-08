@@ -215,7 +215,7 @@ cat <<EOF > /etc/fail2ban/jail.local
 banaction=ufw
 bantime  = 10800 ;3 hours
 findtime  = 86400 ;1 day
-maxretry = 5
+maxretry = 3
 
 [f2b-loop2]
 enabled = true
@@ -248,6 +248,33 @@ bantime = 15552000 ;6 months
 findtime = 31536000 ;1 year
 logpath = /var/log/fail2ban.log
 maxretry = 9
+
+[apache-auth]
+enabled = true
+
+[apache-badbots]
+enabled = true
+
+[apache-noscript]
+enabled = true
+
+[apache-overflows]
+enabled = true
+
+[apache-nohome]
+enabled = true
+
+[apache-botsearch]
+enabled = true
+
+[apache-fakegooglebot]
+enabled = true
+
+[apache-modsecurity]
+enabled = true
+
+[apache-shellshock]
+enabled = true
 EOF
 ```
 

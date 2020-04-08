@@ -25,5 +25,17 @@ See comments regarding the basic OS installation in
 I tried then to run nextcloud via docker-compose, but failed.... I just did not get the nginx ingress to work
 [nextcloud-docker-compose.md](nextcloud-docker-compose.md) 
 
+## nextcloud bare metal installation
 
+Because i needed the nextcloud installation for my family, i decided to install it natively instead of running in docker-compose
+[nextcloud-baremetal.md](nextcloud-baremetal.md)
 
+## How to use nextcloud when you have it?
+
+See [using-nextcloud.md](using-nextcloud.md)
+
+## Setting up a vm for testing purposes
+
+## Setting up a single node kubernetes cluster
+
+## Running nextcloud on kube
