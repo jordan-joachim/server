@@ -454,3 +454,11 @@ systemctl restart apache2
 EOF
 chmod 755 /usr/local/bin/nextcloud_restore.sh
 ```
+
+## nextcloud configs
+
+At the end, login as administrator to your nextcloud and click on you user in the top right. In the drop down, click on Settings. In Overview, nextcloud will check if your installation is healthy. It should be :-)
+
+Under basic settings, add your email settings so that your nextcloud can send emails.
+
+Then go to personal settings and adapt for your admin language, email address and profile picture.
